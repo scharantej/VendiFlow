@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Tracking</title>
+</head>
+<body>
+<h1>Track Your Order</h1>
+
+<p>
+Enter your order ID to view the status and details of your order.
+</p>
+
+<form action="/order_tracking" method="GET">
+<label for="order_id">Order ID:</label>
+<input type="text" name="order_id" id="order_id">
+<br>
+
+<input type="submit" value="Track Order">
+</form>
+
+<div id="order_status">
+<!-- Display order status and details here -->
+</div>
+</body>
+</html>
+
